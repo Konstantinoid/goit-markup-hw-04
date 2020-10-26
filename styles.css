@@ -346,15 +346,6 @@ height: 44px;
 margin-top: 16px;
 margin-left: 32px;
 }
-.showoff_svg{
-fill: rgba(255, 255, 255, 1);
-}
-#svg-sprite {
-display: none;
-}
-.showoff_svg:hover .showoff_svg:focus {
-fill: rgba(33, 150, 243, 1);
-}
 
 .show_room {
 font-family: Roboto;
