@@ -339,9 +339,37 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 0px 0px 4px 4px;
 }
 .showoff_social_svg {
-justify-content: space-between;
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+align-content: flex-start;
+margin-left: 32px;
+margin-right: 32px;
+margin-top: 16px;
+padding: 0px;
 width: 206px;
 height: 44px;
+}
+.social_svg_background {
+height: 44px;
+width: 44px;
+border-radius: 50%;
+outline: none;
+color: #afb1b8;
+background-color: #FFFFFF;
+border: none;
+align-content: center;
+}
+.social_svg_background:hover {
+background-color: #2196F3;
+color: #FFFFFF;
+outline: none;
+}
+.social_svg_links{
+width: 20px;
+height: 20px;
+padding: 0px;
+fill: currentColor;
 }
 
 .show_room {
@@ -392,6 +420,12 @@ margin-right: auto;
 margin-top: 50px;
 margin-bottom: 94px;
 list-style: none;
+}
+.coda_partners_svg {
+width: 170px;
+height: 90px;
+border: solid 1px #AFB1B8;
+border-radius: 5%;
 }
                              /* FOOTER */
 .footer {
